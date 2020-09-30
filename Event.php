@@ -4,7 +4,7 @@ abstract class Event
 	protected $object;
 	
 	public function __construct($object) {
-		$this->$object = $object;
+		$this->object = $object;
 	}
 
 	public function getObject()
